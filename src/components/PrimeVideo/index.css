@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.prime-video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+  min-height: 100vh;
+  width: 100%;
+  min-width: 458px;
+}
+.image {
+  width: 100%;
+}
+.movies-container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .movies-container {
+    max-width: 1110px;
+  }
+}
+
+.movie-heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  line-height: 1.3;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .movie-heading {
+    font-size: 32px;
+  }
+}
